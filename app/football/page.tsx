@@ -17,7 +17,7 @@ export default function Page() {
                             src="/ball.gif"
                             width={80}
                             height={80}
-                            alt="Animated calculation"
+                            alt="Football"
                             unoptimized // Keep this to ensure the GIF animates
                         />
                     </div>
