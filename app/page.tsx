@@ -27,6 +27,9 @@ export default function Page() {
                                 Camps, specialized skills, rigorous discipline, and seamless teamwork
                             </CardDescription>
                         </CardHeader>
+                        <CardFooter>
+                            <Button className="w-full">Read More</Button>
+                        </CardFooter>
                     </Card>
                     <Card className="relative mx-auto w-full hover:bg-emerald-50 dark:bg-[#171717] max-w-sm pt-0 hover:scale-[1.02] transition-all duration-300">
                         <div className="absolute inset-0 z-30 aspect-video" />
@@ -41,6 +44,9 @@ export default function Page() {
                             Guidance, leadership, accountability and exposure
                             </CardDescription>
                         </CardHeader>
+                        <CardFooter>
+                            <Button className="w-full">Read More</Button>
+                        </CardFooter>
                     </Card>
                     <Card className="relative mx-auto w-full hover:bg-emerald-50 dark:bg-[#171717] max-w-sm pt-0 hover:scale-[1.02] transition-all duration-300">
                         <div className="absolute inset-0 z-30 aspect-video" />
@@ -55,6 +61,9 @@ export default function Page() {
                             Learning opportunities, development and future readiness
                             </CardDescription>
                         </CardHeader>
+                        <CardFooter>
+                            <Button className="w-full">Read More</Button>
+                        </CardFooter>
                     </Card>
                     <Card className="relative mx-auto w-full hover:bg-emerald-50 dark:bg-[#171717] max-w-sm pt-0 hover:scale-[1.02] transition-all duration-300">
                         <div className="absolute inset-0 z-30 aspect-video" />
@@ -69,6 +78,9 @@ export default function Page() {
                             Events, relationships, belonging and local impact
                             </CardDescription>
                         </CardHeader>
+                        <CardFooter>
+                            <Button className="w-full">Read More</Button>
+                        </CardFooter>
                     </Card>
                 </div>
                 <div className="font-mono text-xs text-muted-foreground pt-12">
