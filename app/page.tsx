@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import Link from 'next/link';
 import {
 Card,
 CardDescription,
@@ -28,7 +29,14 @@ export default function Page() {
                             </CardDescription>
                         </CardHeader>
                         <CardFooter>
-                            <Button className="w-full">Read More</Button>
+                            <Link 
+                                href="/football"
+                                className="w-full"
+                            >
+                                <Button className="w-full">
+                                    Read More
+                                </Button>
+                            </Link>
                         </CardFooter>
                     </Card>
                     <Card className="relative mx-auto w-full hover:bg-emerald-50 dark:bg-[#171717] max-w-sm pt-0 hover:scale-[1.02] transition-all duration-300">
@@ -45,7 +53,14 @@ export default function Page() {
                             </CardDescription>
                         </CardHeader>
                         <CardFooter>
-                            <Button className="w-full">Read More</Button>
+                            <Link 
+                                href="/mentorship"
+                                className="w-full"
+                            >
+                                <Button className="w-full">
+                                    Read More
+                                </Button>
+                            </Link>
                         </CardFooter>
                     </Card>
                     <Card className="relative mx-auto w-full hover:bg-emerald-50 dark:bg-[#171717] max-w-sm pt-0 hover:scale-[1.02] transition-all duration-300">
@@ -62,7 +77,14 @@ export default function Page() {
                             </CardDescription>
                         </CardHeader>
                         <CardFooter>
-                            <Button className="w-full">Read More</Button>
+                            <Link 
+                                href="/education"
+                                className="w-full"
+                            >
+                                <Button className="w-full">
+                                    Read More
+                                </Button>
+                            </Link>
                         </CardFooter>
                     </Card>
                     <Card className="relative mx-auto w-full hover:bg-emerald-50 dark:bg-[#171717] max-w-sm pt-0 hover:scale-[1.02] transition-all duration-300">
@@ -79,7 +101,14 @@ export default function Page() {
                             </CardDescription>
                         </CardHeader>
                         <CardFooter>
-                            <Button className="w-full">Read More</Button>
+                            <Link 
+                                href="/community"
+                                className="w-full"
+                            >
+                                <Button className="w-full">
+                                    Read More
+                                </Button>
+                            </Link>
                         </CardFooter>
                     </Card>
                 </div>
