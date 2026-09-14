@@ -1,4 +1,5 @@
 import { Nunito } from 'next/font/google';
+import type { Metadata } from 'next';
 
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
@@ -9,6 +10,11 @@ const nunito = Nunito({
     variable: '--font-nunito', // Define the CSS variable
     display: 'swap',
 });
+
+export const metadata: Metadata = {
+    title: 'Kickstart Foundation',
+    description: 'The Kickstart foundation is a non-profit organization focused on...',
+};
 
 export default function RootLayout({
     children,
