@@ -95,7 +95,7 @@ export default function Page() {
                             className="relative z-20 aspect-video w-full object-cover brightness-80 dark:brightness-60 will-change-transform"
                         />
                         <CardHeader>
-                            <CardTitle>Community</CardTitle>
+                            <CardTitle>Community Engagement</CardTitle>
                             <CardDescription>
                             Events, relationships, belonging and local impact
                             </CardDescription>

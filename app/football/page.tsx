@@ -12,14 +12,14 @@ export default function Page() {
                 />
                 <div className="pt-10">
                     <div className="flex items-center gap-2">
-                        <h1 className="font-black text-5xl">Football</h1>
                         <Image
                             src="/ball.gif"
-                            width={80}
-                            height={80}
+                            width={60}
+                            height={60}
                             alt="Football"
                             unoptimized // Keep this to ensure the GIF animates
                         />
+                        <h1 className="font-black text-5xl">Football</h1>
                     </div>
                     <div>
                     <p className="pt-4 text-lg">
