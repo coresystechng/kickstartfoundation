@@ -116,17 +116,25 @@
     --radius-4xl: calc(var(--radius) * 2.6);
 }
 
+@import "tailwindcss";
+
+@theme {
+    /* This maps Tailwind's default sans font to your Nunito variable */
+    --font-sans: var(--font-nunito), ui-sans-serif, system-ui, sans-serif;
+}
+
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
-    }
-  body {
-    @apply bg-background text-foreground;
-    }
-  button:not(:disabled), [role="button"]:not(:disabled) {
-    cursor: pointer;
-    }
-  html {
-    @apply font-sans;
-    }
+    * {
+        @apply border-border outline-ring/50;
+        }
+    body {
+        @apply bg-background text-foreground;
+        @apply font-sans;
+        }
+    button:not(:disabled), [role="button"]:not(:disabled) {
+        cursor: pointer;
+        }
+    html {
+        @apply font-sans;
+        }
 }
