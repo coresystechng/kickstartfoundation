@@ -120,7 +120,7 @@
 
 @theme {
     /* This maps Tailwind's default sans font to your Nunito variable */
-    --font-sans: var(--font-nunito), ui-sans-serif, system-ui, sans-serif;
+    --font-sans: var(--font-ojuju), ui-sans-serif, system-ui, sans-serif;
 }
 
 @layer base {

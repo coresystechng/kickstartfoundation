@@ -1,13 +1,13 @@
-import { Nunito } from 'next/font/google';
+import { Ojuju } from 'next/font/google';
 import type { Metadata } from 'next';
 
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 
 // font config
-const nunito = Nunito({
+const ojuju = Ojuju({
     subsets: ['latin'],
-    variable: '--font-nunito', // Define the CSS variable
+    variable: '--font-ojuju', // Define the CSS variable
     display: 'swap',
 });
 
@@ -25,7 +25,7 @@ export default function RootLayout({
         <html
         lang="en"
         suppressHydrationWarning
-        className={nunito.variable}
+        className={ojuju.variable}
         >
             <body>
                 <ThemeProvider>{children}</ThemeProvider>
