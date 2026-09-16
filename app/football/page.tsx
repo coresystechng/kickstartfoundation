@@ -13,13 +13,15 @@ export default function Page() {
                 />
                 <div className="xs:p-4 md:py-4">
                     <div className="flex items-center gap-2 pe-2 mt-4">
-                        <Image
-                            src="/ball.gif"
-                            width={55}
-                            height={55}
-                            alt="Football"
-                            unoptimized // Keep this to ensure the GIF animates
-                        />
+                        <div className='bg-white p-0.5 rounded'>
+                            <Image
+                                src="/ball.gif"
+                                width={50}
+                                height={50}
+                                alt="Football"
+                                unoptimized // Keep this to ensure the GIF animates
+                            />
+                        </div>
                         <h1 className="font-black text-4xl">Football</h1>
                     </div>
                     <p className='text-emerald-600 dark:text-emerald-300 py-4'>Using the game to build more than athletes.</p>
