@@ -11,7 +11,7 @@ export default function Page() {
                     alt="Event cover"
                     className="relative z-20 max-h-100 w-full object-cover brightness-80 dark:brightness-60 will-change-transform"
                 />
-                <div className="xs:p-4 md:py-4">
+                <div className="p-4 md:py-4 md:px-0">
                     <div className="flex items-center gap-2 pe-2 mt-4">
                         <div className='bg-white p-0.5 rounded'>
                             <Image
