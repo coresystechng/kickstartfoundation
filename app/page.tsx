@@ -10,11 +10,11 @@ CardTitle,
 
 export default function Page() {
     return (
-        <div className="flex min-h-screen justify-center p-12">
+        <div className="flex min-h-screen justify-center p-6 pt-10 md:p-10 mx-auto max-w-6xl">
             <div className="text-center">
                 <p>Our Programmes</p>
                 <h1 className="font-black text-gray-800 dark:text-gray-200 text-4xl pt-3 pb-6">Make A Difference</h1>
-                <div className="grid md:grid-cols-2 flex-col min-w-3xl gap-6">
+                <div className="grid sm:grid-cols-2 flex-col md:min-w-xl lg:min-w-3xl gap-6">
                     <Card className="relative mx-auto w-full hover:bg-emerald-50 dark:bg-[#171717] max-w-sm pt-0 hover:scale-[1.02] transition-all duration-300">
                         <div className="absolute inset-0 z-30 aspect-video" />
                         <img
