@@ -12,8 +12,7 @@ export default function Page() {
                     className="relative z-20 max-h-100 w-full object-cover brightness-80 dark:brightness-60 will-change-transform"
                 />
                 <div className="xs:p-4 md:py-4">
-                    <p className='text-emerald-600 dark:text-emerald-300 pt-4'>Connecting young people with people who believe in their potential.</p>
-                    <div className="flex items-center gap-2 pe-2 my-4">
+                    <div className="flex items-center gap-2 pe-2 mt-4">
                         <Image
                             src="/mentorship.gif"
                             width={55}
@@ -23,6 +22,7 @@ export default function Page() {
                         />
                         <h1 className="font-black text-4xl">Mentorship</h1>
                     </div>
+                    <p className='text-emerald-600 dark:text-emerald-300 py-4'>Connecting young people with people who believe in their potential.</p>
                     <div>
                         <p className="text-lg font-medium text-gray-900 dark:text-gray-200">
                             Positive guidance can change the direction of a young person's life. KICKSTEP connects young people with accomplished athletes, professionals and community leaders who can share experiences, provide encouragement and help participants make better decisions about their future. <br />
