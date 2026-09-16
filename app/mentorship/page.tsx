@@ -1,4 +1,6 @@
+import { ArrowLeft, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Page() {
     return (
@@ -23,30 +25,48 @@ export default function Page() {
                     <p className='text-neutral-800 dark:text-neutral-300'>Connecting young people with people who believe in their potential.</p>
                     <div className='bg-emerald-600 h-0.5 w-[480] rounded' />
                     <div>
-                    <p className="pt-4 text-lg font-medium text-gray-900 dark:text-gray-200">
-                        Positive guidance can change the direction of a young person's life. KICKSTEP connects young people with accomplished athletes, professionals and community leaders who can share experiences, provide encouragement and help participants make better decisions about their future. <br />
-                    </p>
+                        <p className="pt-4 text-lg font-medium text-gray-900 dark:text-gray-200">
+                            Positive guidance can change the direction of a young person's life. KICKSTEP connects young people with accomplished athletes, professionals and community leaders who can share experiences, provide encouragement and help participants make better decisions about their future. <br />
+                        </p>
 
-                    <div className="pt-4 text-lg text-gray-900 dark:text-gray-200">   
-                        <span className="font-semibold text-2xl text-gray-900 dark:text-white">Focus: <br /></span>
-                        <ol className="pt-2 pb-8">
-                            <li>
-                                • Positive role models
-                            </li>
-                            <li>
-                                • Personal and character development
-                            </li>
-                            <li>
-                                • Career and life guidance
-                            </li>
-                            <li>
-                                • Confidence and goal-setting
-                            </li>
-                            <li>
-                                • Building meaningful relationships and support networks
-                            </li>
-                        </ol>
-                    </div>
+                        <div className="pt-4 text-lg text-gray-900 dark:text-gray-200">   
+                            <span className="font-semibold text-2xl text-gray-900 dark:text-white">Focus: <br /></span>
+                            <ol className="pt-2 pb-8">
+                                <li>
+                                    • Positive role models
+                                </li>
+                                <li>
+                                    • Personal and character development
+                                </li>
+                                <li>
+                                    • Career and life guidance
+                                </li>
+                                <li>
+                                    • Confidence and goal-setting
+                                </li>
+                                <li>
+                                    • Building meaningful relationships and support networks
+                                </li>
+                            </ol>
+                        </div>
+                        <div className='flex items-center justify-between mb-10'>
+                            <Link
+                                href="/football"
+                            >
+                                <div className='bg-emerald-600 text-white p-2 hover:scale-[1.02] active:scale-[0.96] transition-all duration-300 will-change-transform flex items-center gap-1'>
+                                    <ArrowLeft size={15} />
+                                    Football
+                                </div>
+                            </Link>
+                            <Link
+                                href="/education"
+                            >
+                                <div className='bg-emerald-600 text-white p-2 hover:scale-[1.02] active:scale-[0.96] transition-all duration-300 will-change-transform flex items-center gap-1'>
+                                    Education
+                                    <ArrowRight size={15} />
+                                </div>
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </div>

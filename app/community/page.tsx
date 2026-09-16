@@ -1,4 +1,6 @@
+import { ArrowLeft, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Page() {
     return (
@@ -23,30 +25,48 @@ export default function Page() {
                     <p className='text-neutral-800 dark:text-neutral-300'>Building stronger young people through stronger communities.</p>
                     <div className='bg-emerald-600 h-0.5 w-[450] rounded' />
                     <div>
-                    <p className="pt-4 text-lg font-medium text-gray-900 dark:text-gray-200">
-                        Young people thrive when they feel supported, connected and valued. Through community events, outreach initiatives and partnerships, KICKSTEP brings families, mentors, organisations and supporters together to create environments where young people have opportunities to learn, participate and grow. <br />
-                    </p>
+                        <p className="pt-4 text-lg font-medium text-gray-900 dark:text-gray-200">
+                            Young people thrive when they feel supported, connected and valued. Through community events, outreach initiatives and partnerships, KICKSTEP brings families, mentors, organisations and supporters together to create environments where young people have opportunities to learn, participate and grow. <br />
+                        </p>
 
-                    <div className="pt-4 text-lg font-medium text-gray-900 dark:text-gray-200">
-                        <span className="font-semibold text-2xl text-gray-900 dark:text-white">Focus: <br /></span>
-                        <ol className="pt-2 pb-8">
-                            <li>
-                                • Community events and outreach
-                            </li>
-                            <li>
-                                • Youth participation and inclusion
-                            </li>
-                            <li>
-                                • Partnerships with local organisations
-                            </li>
-                            <li>
-                                • Stronger relationships between young people and their communities
-                            </li>
-                            <li>
-                                • Creating accessible opportunities for growth
-                            </li>
-                        </ol>
-                    </div>
+                        <div className="pt-4 text-lg font-medium text-gray-900 dark:text-gray-200">
+                            <span className="font-semibold text-2xl text-gray-900 dark:text-white">Focus: <br /></span>
+                            <ol className="pt-2 pb-8">
+                                <li>
+                                    • Community events and outreach
+                                </li>
+                                <li>
+                                    • Youth participation and inclusion
+                                </li>
+                                <li>
+                                    • Partnerships with local organisations
+                                </li>
+                                <li>
+                                    • Stronger relationships between young people and their communities
+                                </li>
+                                <li>
+                                    • Creating accessible opportunities for growth
+                                </li>
+                            </ol>
+                        </div>
+                        <div className='flex items-center justify-between mb-10'>
+                            <Link
+                                href="/education"
+                            >
+                                <div className='bg-emerald-600 text-white p-2 hover:scale-[1.02] active:scale-[0.96] transition-all duration-300 will-change-transform flex items-center gap-1'>
+                                    <ArrowLeft size={15} />
+                                    Education
+                                </div>
+                            </Link>
+                            <Link
+                                href="/"
+                            >
+                                <div className='bg-emerald-600 text-white p-2 hover:scale-[1.02] active:scale-[0.96] transition-all duration-300 will-change-transform flex items-center gap-1'>
+                                    Home
+                                    <ArrowRight size={15} />
+                                </div>
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </div>

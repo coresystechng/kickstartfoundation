@@ -1,4 +1,6 @@
+import { ArrowLeft, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Page() {
     return (
@@ -23,30 +25,48 @@ export default function Page() {
                     <p className='text-neutral-800 dark:text-neutral-300'>Creating opportunities for learning and future growth.</p>
                     <div className='bg-emerald-600 h-0.5 w-96 rounded' />
                     <div>
-                    <p className="pt-4 text-lg font-medium text-gray-900 dark:text-gray-200">
-                        KICKSTEP recognises that long-term success extends beyond sporting ability. Through educational initiatives, learning opportunities and exposure to useful resources, the Foundation encourages young people to value education, develop their potential and prepare for opportunities beyond football.<br />
-                    </p>
+                        <p className="pt-4 text-lg font-medium text-gray-900 dark:text-gray-200">
+                            KICKSTEP recognises that long-term success extends beyond sporting ability. Through educational initiatives, learning opportunities and exposure to useful resources, the Foundation encourages young people to value education, develop their potential and prepare for opportunities beyond football.<br />
+                        </p>
 
-                    <div className="pt-4 text-lg font-medium text-gray-900 dark:text-gray-200">
-                        <span className="font-semibold text-2xl text-gray-900 dark:text-white">Focus: <br /></span>
-                        <ol className="pt-2 pb-8">
-                            <li>
-                                • Encouraging academic development
-                            </li>
-                            <li>
-                                • Connecting young people with educational opportunities
-                            </li>
-                            <li>
-                                • Promoting lifelong learning
-                            </li>
-                            <li>
-                                • Building skills for future success
-                            </li>
-                            <li>
-                                • Helping young people recognise possibilities beyond sport
-                            </li>
-                        </ol>
-                    </div>
+                        <div className="pt-4 text-lg font-medium text-gray-900 dark:text-gray-200">
+                            <span className="font-semibold text-2xl text-gray-900 dark:text-white">Focus: <br /></span>
+                            <ol className="pt-2 pb-8">
+                                <li>
+                                    • Encouraging academic development
+                                </li>
+                                <li>
+                                    • Connecting young people with educational opportunities
+                                </li>
+                                <li>
+                                    • Promoting lifelong learning
+                                </li>
+                                <li>
+                                    • Building skills for future success
+                                </li>
+                                <li>
+                                    • Helping young people recognise possibilities beyond sport
+                                </li>
+                            </ol>
+                        </div>
+                        <div className='flex items-center justify-between mb-10'>
+                            <Link
+                                href="/mentorship"
+                            >
+                                <div className='bg-emerald-600 text-white p-2 hover:scale-[1.02] active:scale-[0.96] transition-all duration-300 will-change-transform flex items-center gap-1'>
+                                    <ArrowLeft size={15} />
+                                    Mentorship
+                                </div>
+                            </Link>
+                            <Link
+                                href="/community"
+                            >
+                                <div className='bg-emerald-600 text-white p-2 hover:scale-[1.02] active:scale-[0.96] transition-all duration-300 will-change-transform flex items-center gap-1'>
+                                    Community
+                                    <ArrowRight size={15} />
+                                </div>
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </div>
