@@ -10,7 +10,7 @@ export default function Page() {
                     className="relative z-20 max-h-100 w-full object-cover brightness-80 dark:brightness-60 will-change-transform"
                 />
                 <div className="pt-8">
-                    <div className="flex items-center gap-2 px-2 py-2 mb-4 bg-gray-200">
+                    <div className="flex items-center gap-2 px-2 py-2 mb-4 dark:bg-gray-200">
                         <Image
                             src="/education.gif"
                             width={55}
@@ -20,14 +20,14 @@ export default function Page() {
                         />
                         <h1 className="font-black text-4xl dark:text-gray-900">Education</h1>
                     </div>
-                    <p className='text-neutral-400'>Creating opportunities for learning and future growth.</p>
-                    <div className='bg-emerald-200 h-0.5 w-96 rounded' />
+                    <p className='text-neutral-800 dark:text-neutral-300'>Creating opportunities for learning and future growth.</p>
+                    <div className='bg-emerald-300 h-0.5 w-96 rounded' />
                     <div>
-                    <p className="pt-4 text-lg text-neutral-600 dark:text-neutral-300">
+                    <p className="pt-4 text-lg font-medium text-gray-900 dark:text-gray-200">
                         KICKSTEP recognises that long-term success extends beyond sporting ability. Through educational initiatives, learning opportunities and exposure to useful resources, the Foundation encourages young people to value education, develop their potential and prepare for opportunities beyond football.<br />
                     </p>
 
-                    <div className="pt-4 text-lg text-neutral-600 dark:text-neutral-300">
+                    <div className="pt-4 text-lg font-medium text-gray-900 dark:text-gray-200">
                         <span className="font-semibold text-2xl text-gray-900 dark:text-white">Focus: <br /></span>
                         <ol className="pt-2 pb-8">
                             <li>
